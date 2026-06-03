@@ -19,10 +19,7 @@ Desarrollar un sistema que permita registrar, consultar, editar, eliminar y cont
 ## Actores del sistema
 
 - Administrador del proyecto
-- Desarrollador
-- Analista QA
-- DevOps
-- Project Manager
+- Desarrolladores
 
 ## Requisitos funcionales
 
@@ -76,6 +73,10 @@ El repositorio debe incluir un pipeline de GitHub Actions para validar la compil
 
 Se documenta que el sistema utiliza formularios Windows Forms, entidades, controlador y DataGridView para la gestión de incidencias.
 
+## Enfoque Spec Driven Development
+
+El desarrollo del sistema se realizó tomando como base una especificación previa de requisitos. Esta especificación permitió definir qué funcionalidades debía cumplir el sistema antes de implementar el código.
+
 ## Criterios de aceptación
 
 - El sistema permite registrar incidencias.
@@ -84,6 +85,3 @@ Se documenta que el sistema utiliza formularios Windows Forms, entidades, contro
 - Se puede eliminar una incidencia seleccionada.
 - Se puede buscar información.
 - El dashboard muestra conteos generales.
-- El proyecto se encuentra subido a GitHub.
-- Existe al menos un Pull Request.
-- Existe al menos un pipeline en GitHub Actions.
