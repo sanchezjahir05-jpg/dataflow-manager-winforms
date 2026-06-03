@@ -1,4 +1,4 @@
-# Uso de GitHub Copilot y Prompt Engineering
+# Uso de GitHub Copilot
 
 ## Prompt 1
 
@@ -10,15 +10,11 @@ Crea una clase Incidencia en C# que tenga ID, título, descripción, responsable
 
 ## Prompt 3
 
-Crea un controlador en C# para administrar una lista de incidencias con métodos agregar, editar, eliminar, buscar y listar.
+Crea un método para cargar trabajadores de ejemplo
 
 ## Prompt 4
 
-Genera código para cargar una lista de objetos en un DataGridView en Windows Forms.
-
-## Prompt 5
-
-Crea un archivo GitHub Actions para compilar automáticamente un proyecto C# de Windows Forms.
+Crea un método para cargar los combos de responsables y prioridades en el frmIncidencias
 
 ## Análisis
 
