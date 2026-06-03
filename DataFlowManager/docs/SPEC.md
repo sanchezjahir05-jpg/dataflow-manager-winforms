@@ -70,7 +70,11 @@ El código debe estar alojado en GitHub y gestionado mediante ramas.
 
 ### RNF04 - Automatización
 
-El repositorio debe incluir un pipeline de GitHub Actions para validar la compilación del proyecto
+El repositorio debe incluir un pipeline de GitHub Actions para validar la compilación del proyecto.
+
+## Actualización de documentación
+
+Se documenta que el sistema utiliza formularios Windows Forms, entidades, controlador y DataGridView para la gestión de incidencias.
 
 ## Criterios de aceptación
 
