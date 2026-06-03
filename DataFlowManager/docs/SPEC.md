@@ -64,11 +64,7 @@ La interfaz debe ser sencilla y permitir al usuario registrar y consultar datos 
 
 El proyecto debe estar organizado en carpetas: Entidades, Controlador y Formularios.
 
-### RNF03 - Control de versiones
-
-El código debe estar alojado en GitHub y gestionado mediante ramas.
-
-### RNF04 - Automatización
+### RNF03 - Automatización
 
 El repositorio debe incluir un pipeline de GitHub Actions para validar la compilación del proyecto.
 
