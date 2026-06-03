@@ -61,8 +61,5 @@ jobs:
       - name: Configurar MSBuild
         uses: microsoft/setup-msbuild@v2
 
-      - name: Restaurar paquetes NuGet
-        run: nuget restore DataFlowManager.sln
-
-      - name: Compilar solucion
-        run: msbuild DataFlowManager.sln /p:Configuration=Release /p:Platform="Any CPU"
+      - name: Compilar proyecto WinForms
+        run: msbuild DataFlowManager/DataFlowManager.csproj /p:Configuration=Release /p:Platform="Any CPU"
