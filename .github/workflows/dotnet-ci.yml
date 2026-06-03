@@ -62,4 +62,4 @@ jobs:
         uses: microsoft/setup-msbuild@v2
 
       - name: Compilar proyecto WinForms
-        run: msbuild DataFlowManager/DataFlowManager.csproj /p:Configuration=Release /p:Platform="Any CPU"
+        run: msbuild DataFlowManager/DataFlowManager.csproj /p:Configuration=Release /p:Platform=AnyCPU
